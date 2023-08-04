@@ -8,4 +8,4 @@ def SpindlerBattery(Battery):
         self.current_date = current_date
         
     def needs_service(self):
-        return dateCalculator(self.last_service_date, self.current_Date) > 2
+        return dateCalculator(self.last_service_date, self.current_Date) > 3
